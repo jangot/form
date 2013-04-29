@@ -40,9 +40,9 @@ Form.Element.Abstract('Form.Element.MultiValue', {
     _updateValue : function (){
         var newValue = {};
         for (var i = 0; i < this._items.length; i++) {
-            var itemValue = this._items.getValue();
+            var itemValue = this._items[i].getValue();
             if (itemValue) {
-                newValue[this._items.getName()] = itemValue;
+                newValue[this._items[i].getName()] = itemValue;
             }
         }
         this.setValue(newValue);

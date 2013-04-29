@@ -23,5 +23,6 @@ sc('class/form/element/multi-value')
 sc('class/form/element/text');
 sc('class/form/element/checked-item');
 sc('class/form/element/checkboxes');
+sc('class/form/element/radios');
 
 sc('index');

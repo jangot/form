@@ -8,7 +8,7 @@ Form.Decorator.Element.Abstract('Form.Decorator.Element.BaseErrorBox', {
     },
 
     _addListeners : function (errorBox, element){
-        element.onChange('errorMessage', function (error){
+        element.onChange(element.constructor.PARAM_NAME_ERROR_MESSAGE, function (error){
             if (error) {
                 errorBox.html(error).show();
             } else {

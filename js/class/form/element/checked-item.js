@@ -6,6 +6,7 @@ Form.Element.SingleValue('Form.Element.CheckedItem', {
 }, {
 
     _checked : null,
+    _value : null,
 
     init : function (){
         this._super();
@@ -14,9 +15,16 @@ Form.Element.SingleValue('Form.Element.CheckedItem', {
         this.setType(this.constructor.TYPE_CHECKBOX);
     },
 
+    setValue : function (value){
+        this._value = value;
+        return this;
+    },
+
     setChecked : function (checked){
         checked = Boolean(checked);
         this.setParam(this.constructor.PARAM_NAME_CHECKED, checked);
+        var newValue = checked ? this._value : false;
+        this.setParam(this.constructor.PARAM_NAME_VALUE, newValue);
         return this;
     },
 
@@ -40,8 +48,8 @@ Form.Element.SingleValue('Form.Element.CheckedItem', {
         var labelDecorator = new Form.Decorator.Element.BaseLabel();
         this.addDecorator(labelDecorator);
 
-        var errorDecorator = new Form.Decorator.Element.BaseErrorBox();
-        this.addDecorator(errorDecorator);
+//        var errorDecorator = new Form.Decorator.Element.BaseErrorBox();
+//        this.addDecorator(errorDecorator);
 
         var listenersDecorator = new Form.Decorator.Element.BaseItemListeners();
         this.addDecorator(listenersDecorator);

@@ -16,9 +16,6 @@ Form.Element.SingleValue('Form.Element.Text', {
         var errorDecorator = new Form.Decorator.Element.BaseErrorBox();
         this.addDecorator(errorDecorator);
 
-        var listenersDecorator = new Form.Decorator.Element.BaseTextListeners();
-        this.addDecorator(listenersDecorator);
-
         return this;
     }
 
