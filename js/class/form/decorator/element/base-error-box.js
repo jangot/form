@@ -4,8 +4,6 @@ Form.Decorator.Element.Abstract('Form.Decorator.Element.BaseErrorBox', {
         var errorBox = $('<span class="errorBox"></span>');
         result.append(errorBox);
         this._addListeners(errorBox, element);
-        element.showError();
-
         return result;
     },
 

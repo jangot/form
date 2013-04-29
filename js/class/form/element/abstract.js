@@ -38,29 +38,30 @@ $.Class('Form.Element.Abstract', {
 
     getHtml : function (){
         if (!this._html) {
-            this.draw();
+            this._html = this.draw($('<div class="form-element"></div>'));
         }
         return this._html;
     },
 
-    draw : function (){
-        var result = '';
+    draw : function (result){
         for (var i = 0; i < this._decorators.length; i++) {
             var result = this._decorators[i].decorate(result, this);
         }
-        this._html = result;
-        return this;
+        return result;
     },
 
-    onChange : function (paramName, cb){
+    onChange : function (paramName, cb, context){
         if ($.type(this._params[paramName]) === 'undefined') {
             throw Error('There is\'t param "' + paramName + '"');
         }
         if ($.type(cb) !== 'function') {
             throw Error('Callback must be function');
         }
+        if (!context) {
+            context = this;
+        }
         this._events[paramName] = this._events[paramName] || [];
-        this._events[paramName].push(cb);
+        this._events[paramName].push(cb.bind(context));
     },
 
     getType : function (){
