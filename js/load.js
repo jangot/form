@@ -19,10 +19,13 @@ sc('class/form/decorator/element/base-multi-value');
 
 sc('class/form/element/abstract');
 sc('class/form/element/single-value');
-sc('class/form/element/multi-value')
+sc('class/form/element/multi-value');
 sc('class/form/element/text');
 sc('class/form/element/checked-item');
 sc('class/form/element/checkboxes');
 sc('class/form/element/radios');
+
+sc('class/form');
+sc('class/form/some-form');
 
 sc('index');

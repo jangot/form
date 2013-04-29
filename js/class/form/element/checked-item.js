@@ -40,16 +40,13 @@ Form.Element.SingleValue('Form.Element.CheckedItem', {
         return this;
     },
 
-    setBaseDecorators : function (){
+    _setBaseDecorators : function (){
         this._super();
         var inputDecorator = new Form.Decorator.Element.BaseInput();
         this.addDecorator(inputDecorator);
 
         var labelDecorator = new Form.Decorator.Element.BaseLabel();
         this.addDecorator(labelDecorator);
-
-//        var errorDecorator = new Form.Decorator.Element.BaseErrorBox();
-//        this.addDecorator(errorDecorator);
 
         var listenersDecorator = new Form.Decorator.Element.BaseItemListeners();
         this.addDecorator(listenersDecorator);

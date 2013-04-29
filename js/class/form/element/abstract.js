@@ -32,7 +32,7 @@ $.Class('Form.Element.Abstract', {
         this._params[this.constructor.PARAM_NAME_NAME] = null;
         this._params[this.constructor.PARAM_NAME_ERROR_MESSAGE] = null;
 
-        this.setBaseDecorators();
+        this._setBaseDecorators();
     },
 
     getHtml : function (){
@@ -44,6 +44,7 @@ $.Class('Form.Element.Abstract', {
 
     reDraw : function (){
         this._html = this._draw($('<div class="form-element"></div>'));
+        return this;
     },
 
     onChange : function (paramName, cb, context){
@@ -115,6 +116,9 @@ $.Class('Form.Element.Abstract', {
                 break;
             }
         }
+        if (result) {
+            this._errorValidator = null;
+        }
         return result;
     },
 
@@ -123,10 +127,12 @@ $.Class('Form.Element.Abstract', {
             var errorMessage = this._errorValidator.getMessage();
             this.setParam(this.constructor.PARAM_NAME_ERROR_MESSAGE, errorMessage);
         }
+        return this;
     },
 
     hideError : function (){
         this.setParam(this.constructor.PARAM_NAME_ERROR_MESSAGE, false);
+        return this;
     },
 
     setParam : function (name, value){
@@ -189,7 +195,7 @@ $.Class('Form.Element.Abstract', {
         this._filters = [];
     },
 
-    setBaseDecorators : function (){
+    _setBaseDecorators : function (){
         return this;
     },
 

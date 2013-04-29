@@ -17,15 +17,15 @@ Form.Element.Abstract('Form.Element.MultiValue', {
         }, this);
     },
 
-    setBaseDecorators : function (){
+    getLength : function (){
+        return this._items.length;
+    },
+
+    _setBaseDecorators : function (){
         this._super();
         var inputDecorator = new Form.Decorator.Element.BaseMultiValue();
         this.addDecorator(inputDecorator);
 
-    },
-
-    getLength : function (){
-        return this._items.length;
     },
 
     _draw : function (result){

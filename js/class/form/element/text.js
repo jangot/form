@@ -5,7 +5,7 @@ Form.Element.SingleValue('Form.Element.Text', {
         this._params[this.constructor.PARAM_NAME_TYPE] = 'text';
     },
 
-    setBaseDecorators : function (){
+    _setBaseDecorators : function (){
         this._super();
         var inputDecorator = new Form.Decorator.Element.BaseInput();
         this.addDecorator(inputDecorator);
