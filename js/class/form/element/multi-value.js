@@ -10,15 +10,6 @@ Form.Element.Abstract('Form.Element.MultiValue', {
         this._items = [];
     },
 
-    draw : function (result){
-        var result = $('<div></div>');
-        for (var i = 0; i < this._items.length; i++) {
-            result.append(this._items[i].getHtml());
-        }
-
-        return this._super(result);
-    },
-
     addItem : function (element){
         this._items.push(element);
         element.onChange(this.constructor.PARAM_NAME_VALUE, function (){
@@ -35,6 +26,15 @@ Form.Element.Abstract('Form.Element.MultiValue', {
 
     getLength : function (){
         return this._items.length;
+    },
+
+    _draw : function (result){
+        var result = $('<div></div>');
+        for (var i = 0; i < this._items.length; i++) {
+            result.append(this._items[i].getHtml());
+        }
+
+        return this._super(result);
     },
 
     _updateValue : function (){

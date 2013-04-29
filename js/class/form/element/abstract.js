@@ -25,9 +25,8 @@ $.Class('Form.Element.Abstract', {
         this._filters = [];
         this._events = {};
 
-
         this._params[this.constructor.PARAM_NAME_TYPE] = 'abstract';
-        this._params[this.constructor.PARAM_NAME_DISABLED] = false
+        this._params[this.constructor.PARAM_NAME_DISABLED] = false;
         this._params[this.constructor.PARAM_NAME_VALUE] = null;
         this._params[this.constructor.PARAM_NAME_LABEL] = null;
         this._params[this.constructor.PARAM_NAME_NAME] = null;
@@ -38,16 +37,13 @@ $.Class('Form.Element.Abstract', {
 
     getHtml : function (){
         if (!this._html) {
-            this._html = this.draw($('<div class="form-element"></div>'));
+            this._html = this._draw($('<div class="form-element"></div>'));
         }
         return this._html;
     },
 
-    draw : function (result){
-        for (var i = 0; i < this._decorators.length; i++) {
-            var result = this._decorators[i].decorate(result, this);
-        }
-        return result;
+    reDraw : function (){
+        this._html = this._draw($('<div class="form-element"></div>'));
     },
 
     onChange : function (paramName, cb, context){
@@ -195,6 +191,13 @@ $.Class('Form.Element.Abstract', {
 
     setBaseDecorators : function (){
         return this;
+    },
+
+    _draw : function (result){
+        for (var i = 0; i < this._decorators.length; i++) {
+            var result = this._decorators[i].decorate(result, this);
+        }
+        return result;
     },
 
     _callEvent : function (paramName){
