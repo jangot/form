@@ -62,7 +62,7 @@ $.Class('Form.Element.Abstract', {
     },
 
     getType : function (){
-        return this.getParam(this.constructor.PARAM_NAME_VALUE);
+        return this.getParam(this.constructor.PARAM_NAME_TYPE);
     },
 
     setLabel : function (label){
@@ -201,7 +201,7 @@ $.Class('Form.Element.Abstract', {
 
     _draw : function (result){
         for (var i = 0; i < this._decorators.length; i++) {
-            var result = this._decorators[i].decorate(result, this);
+            result = this._decorators[i].decorate(result, this);
         }
         return result;
     },

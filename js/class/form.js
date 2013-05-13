@@ -68,7 +68,7 @@ $.Class('Form.Object', {
          }
 
         for (var i = 0; i < this._decorators.length; i++) {
-            var result = this._decorators[i].decorate(result, this);
+            result = this._decorators[i].decorate(result, this);
         }
         return result;
     }

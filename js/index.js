@@ -17,5 +17,9 @@ $(function (){
         } else {
             form.hideErrors();
         }
-    })
+    });
+
+    $('[name="r"]').change(function (){
+        console.log(this.value);
+    });
 });

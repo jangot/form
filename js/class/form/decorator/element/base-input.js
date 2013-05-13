@@ -3,7 +3,7 @@ Form.Decorator.Element.Abstract('Form.Decorator.Element.BaseInput', {
     decorate : function (result, element){
         var params = element.getParams();
 
-        var input = $('<input type="'+ params.type +'" />');
+        var input = $('<input type="'+ params.type +'" name="'+ element.getName() +'" />');
 
         if (params.value) {
             input.attr('value', params.value);

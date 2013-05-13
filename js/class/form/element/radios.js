@@ -2,7 +2,7 @@ Form.Element.MultiValue('Form.Element.Radios', {
 
     init : function (){
         this._super();
-        this._params[this.constructor.PARAM_NAME_TYPE] = 'checkboxes';
+        this._params[this.constructor.PARAM_NAME_TYPE] = 'radios';
     },
 
 

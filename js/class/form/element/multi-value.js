@@ -41,10 +41,12 @@ Form.Element.Abstract('Form.Element.MultiValue', {
         var newValue = {};
         for (var i = 0; i < this._items.length; i++) {
             var itemValue = this._items[i].getValue();
+            console.log(itemValue);
             if (itemValue) {
                 newValue[this._items[i].getName()] = itemValue;
             }
         }
+        console.log(newValue);
         this.setValue(newValue);
     }
 

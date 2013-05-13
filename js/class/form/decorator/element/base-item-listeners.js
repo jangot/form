@@ -10,6 +10,7 @@ Form.Decorator.Element.Abstract('Form.Decorator.Element.BaseItemListeners', {
         });
 
         input.change(function (){
+            console.log('ch', element.getName());
             var value = $(this).prop('checked');
             element.setChecked(value);
         });
