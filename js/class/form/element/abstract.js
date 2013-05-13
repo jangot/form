@@ -42,11 +42,6 @@ $.Class('Form.Element.Abstract', {
         return this._html;
     },
 
-    reDraw : function (){
-        this._html = this._draw($('<div class="form-element"></div>'));
-        return this;
-    },
-
     onChange : function (paramName, cb, context){
         if ($.type(this._params[paramName]) === 'undefined') {
             throw Error('There is\'t param "' + paramName + '"');
@@ -164,11 +159,6 @@ $.Class('Form.Element.Abstract', {
         return this;
     },
 
-    clearDecorators : function (){
-        this._decorators = [];
-        return this;
-    },
-
     addValidator : function (validator){
         if ($.type(validator.validate) === 'function') {
             this._validators.push(validator);
@@ -178,10 +168,6 @@ $.Class('Form.Element.Abstract', {
         return this;
     },
 
-    clearValidators : function (){
-        this._validators = [];
-    },
-
     addFilter : function (filter){
         if ($.type(filter.filter) === 'function') {
             this._filters.push(filter);
@@ -189,10 +175,6 @@ $.Class('Form.Element.Abstract', {
             throw Error('There is\'t filter method in filter');
         }
         return this;
-    },
-
-    clearFilters : function (){
-        this._filters = [];
     },
 
     _setBaseDecorators : function (){
