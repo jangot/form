@@ -1,4 +1,4 @@
-Form.Element.MultiValue('Form.Element.Checkboxes', {
+Form.Element.MultiOptions('Form.Element.Checkboxes', {
 
     init : function (){
         this._super();
@@ -6,18 +6,24 @@ Form.Element.MultiValue('Form.Element.Checkboxes', {
     },
 
 
-    addItem : function (value, label){
-        if(!label) {
-            label = value;
-        }
+    addOption : function (value, label, selected){
+        this._super(value, label, selected);
+        var option = this._getOption();
+
         var checkbox = new Form.Element.CheckedItem();
         checkbox
             .setType(Form.Element.CheckedItem.TYPE_CHECKBOX)
-            .setName(this.getName() + this.getLength())
+            .setName(value)
             .setValue(value)
-            .setLabel(label)
+            .setLabel(option.label)
         ;
-        this._super(checkbox);
+        checkbox.onChange('value', function (value){
+            if (value) {
+                this.select(value)
+            } else {
+                this.deselect(value);
+            }
+        }.bind(this));
         return this;
     }
 

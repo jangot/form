@@ -1,7 +1,7 @@
 Form.Element.SingleValue('Form.Element.Text', {
 
-    init : function (){
-        this._super();
+    init : function (name){
+        this._super(name);
         this._params[this.constructor.PARAM_NAME_TYPE] = 'text';
     },
 

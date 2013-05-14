@@ -63,9 +63,9 @@ Form.Object('Form.SomeForm', {
         radios
             .setLabel('Test checkboxes')
             .setName('test_radios')
-            .addItem('first')
-            .addItem('second')
-            .addItem('new')
+            .addItem('aaaa')
+            .addItem('bbbb')
+            .addItem('cccc')
             .addDecorator(this._getCustomDecoratorForRadiosTitle())
         ;
         this.addElement(radios);

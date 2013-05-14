@@ -2,24 +2,32 @@
 $(function (){
 
 
+    var test = new Form.Element.Text('test');
+    var testDecorator = new Form.Decorator.Element.BaseInput();
+    test
+        .addDecorator(testDecorator)
+    ;
 
-    var form = new Form.SomeForm();
+    $('#form').append(test.getHtml());
 
-    $('#form').append(form.getHtml());
+    var sel = new Form.Element.Select('sel');
+    var selDecorator = new Form.Decorator.Element.Select();
+    sel
+        .addDecorator(selDecorator)
+        .addOption('Start')
+        .addOption('Finish')
+        .addOption('End')
+    ;
+
+    $('#form').append(sel.getHtml());
 
     $('#br').click(function (){
-        var values = form.getValues();
-        $('#result').html(JSON.stringify(values));
-    });
-    $('#bv').click(function (){
-        if(!form.isValid()) {
-            form.showErrors();
-        } else {
-            form.hideErrors();
-        }
+        console.log(sel.getValue());
     });
 
-    $('[name="r"]').change(function (){
-        console.log(this.value);
-    });
+    $('#bv').click(function (){
+        sel.addOption('oue');
+    })
+
 });
+

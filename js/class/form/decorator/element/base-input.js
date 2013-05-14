@@ -12,8 +12,7 @@ Form.Decorator.Element.Abstract('Form.Decorator.Element.BaseInput', {
             input.attr('disabled', 'disabled');
         }
 
-        result.html(input);
-        return result;
+        return input;
     }
 
 });

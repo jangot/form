@@ -4,29 +4,42 @@
     <bookmark url="file://$PROJECT_DIR$/js/class/form/some-form.js" line="74" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00ec7d41-3be9-4e21-aa7f-0470379a82ae" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/libs/ember-1.0.0-rc.2.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/class/form/element/abstract.js" afterPath="$PROJECT_DIR$/js/class/form/element/abstract.js" />
+    <list default="true" id="00ec7d41-3be9-4e21-aa7f-0470379a82ae" name="Default" comment="remove clear decorators">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/class/form/element2/abstract.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/class/form/element2/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/class/form/element/multi-options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/class/form/decorator/element/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/class/form/element2/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/class/form/element2/single.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/class/form/element2/text.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/class/form/decorator/element/base-input.js" afterPath="$PROJECT_DIR$/js/class/form/decorator/element/base-input.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/class/form/element/checkboxes.js" afterPath="$PROJECT_DIR$/js/class/form/element/checkboxes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/load.js" afterPath="$PROJECT_DIR$/js/load.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/class/form/element/multi-value.js" afterPath="$PROJECT_DIR$/js/class/form/element/multi-value.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/class/form/some-form.js" afterPath="$PROJECT_DIR$/js/class/form/some-form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/class/form/element/text.js" afterPath="$PROJECT_DIR$/js/class/form/element/text.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="form.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368438935409" ignored="false" />
-    <file path="/index.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367314973926" ignored="false" />
-    <file path="/abstract.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368439318226" ignored="false" />
+    <file path="/Dummy.txt" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368533501905" ignored="false" />
+    <file path="/index.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368532690515" ignored="false" />
+    <file path="/abstract.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368533481252" ignored="false" />
     <file path="/base-input.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367314371311" ignored="false" />
     <file path="/single-value.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1366974160670" ignored="false" />
     <file path="/input-text.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1366975940632" ignored="false" />
     <file path="/index.html" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367314950488" ignored="false" />
     <file path="/base-label.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1366984091949" ignored="false" />
-    <file path="/text.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367253813407" ignored="false" />
+    <file path="/text.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368528783212" ignored="false" />
     <file path="/base-error-box.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367249357114" ignored="false" />
     <file path="/required.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367248798576" ignored="false" />
-    <file path="/load.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1366979910440" ignored="false" />
-    <file path="/multi-value.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367314598518" ignored="false" />
+    <file path="/load.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368451331096" ignored="false" />
+    <file path="/multi-value.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368445968136" ignored="false" />
     <file path="/base-multi-value.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1366986776542" ignored="false" />
-    <file path="/checkboxes.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367248582457" ignored="false" />
-    <file path="/checkbox.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1366985948431" ignored="false" />
+    <file path="/checkboxes.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368527647402" ignored="false" />
+    <file path="/checkbox.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368455858207" ignored="false" />
     <file path="/base-text-listeners.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368445004252" ignored="false" />
     <file path="/checked-item.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367314752999" ignored="false" />
     <file path="/base-item-listeners.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367314824711" ignored="false" />
@@ -41,8 +54,8 @@
     <file path="/interface.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367256997482" ignored="false" />
     <file path="/someForm.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367257901782" ignored="false" />
     <file path="/some-form.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368445380477" ignored="false" />
-    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/models/business.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367308718035" ignored="false" />
-    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/mainWindow.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367308718035" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/models/business.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368530159616" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/mainWindow.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368456275792" ignored="false" />
     <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/applications/simplates.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367308718035" ignored="false" />
     <file path="/radios.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367314499391" ignored="false" />
     <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/common/controls/iconButton.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367320160588" ignored="false" />
@@ -56,6 +69,18 @@
     <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/applications/cases/groupManagement.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367319072797" ignored="false" />
     <file path="$PROJECT_DIR$/../Simplate_BO_UI/locale/locales.csv" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367320229435" ignored="false" />
     <file path="/locales.csv" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367320229435" ignored="false" />
+    <file path="/multi-options.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368454187612" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/configs/main.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368449810456" ignored="false" />
+    <file path="/business.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368448724923" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/models/business/simples/service.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368449757286" ignored="false" />
+    <file path="/service.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368449733657" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/models/business/cases/service.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368456093613" ignored="false" />
+    <file path="/group.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368527328139" ignored="false" />
+    <file path="/mainWindow.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368456190112" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/models/business/cases/dataKeeper.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368525340422" ignored="false" />
+    <file path="/dataKeeper.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368525183004" ignored="false" />
+    <file path="/list.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368530288881" ignored="false" />
+    <file path="/select.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368533399396" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,46 +102,64 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
+          <file leaf-file-name="load.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/load.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="18" column="39" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="abstract.js" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/class/form/element/abstract.js">
+            <entry file="file://$PROJECT_DIR$/js/class/form/element2/abstract.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="42" column="6" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.61709213">
+                <state line="208" column="19" selection-start="5883" selection-end="5883" vertical-scroll-proportion="0.81687015">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="base-text-listeners.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-text-listeners.js">
+          <file leaf-file-name="single.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/class/form/element2/single.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="77" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+                <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="checkboxes.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/class/form/element/checkboxes.js">
+          <file leaf-file-name="list.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/class/form/element2/list.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="38" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+                <state line="12" column="36" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="multi-value.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/class/form/element/multi-value.js">
+          <file leaf-file-name="select.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/class/form/element2/select.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                <state line="3" column="54" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="select.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/select.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="24" column="71" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="text.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/class/form/element/text.js">
+            <entry file="file://$PROJECT_DIR$/js/class/form/element2/text.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="5" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+                <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -126,10 +169,37 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="some-form.js" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/class/form/some-form.js">
+          <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="87" column="0" selection-start="2523" selection-end="2523" vertical-scroll-proportion="0.68368477">
+                <state line="28" column="26" selection-start="636" selection-end="636" vertical-scroll-proportion="0.46614873">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="27" column="14" selection-start="612" selection-end="614" vertical-scroll-proportion="-16.875">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="base-multi-value.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-multi-value.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="8" column="44" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="base-input.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-input.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="14" column="0" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -155,22 +225,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/class/form/element/checkboxes.js" />
         <option value="$PROJECT_DIR$/js/class/form/element/text.js" />
-        <option value="$PROJECT_DIR$/js/class/form/element/interface.js" />
-        <option value="$PROJECT_DIR$/js/class/form/someForm.js" />
+        <option value="$PROJECT_DIR$/js/class/form/element2/checkbox.js" />
+        <option value="$PROJECT_DIR$/js/class/form/element2/checkboxes.js" />
+        <option value="$PROJECT_DIR$/js/class/form/element2/group.js" />
+        <option value="$PROJECT_DIR$/js/class/form/element2/groups/checkboxes.js" />
+        <option value="$PROJECT_DIR$/js/class/form/element2/single-value.js" />
+        <option value="$PROJECT_DIR$/js/class/form/element2/text.js" />
+        <option value="$PROJECT_DIR$/js/class/form/element2/single.js" />
+        <option value="$PROJECT_DIR$/js/class/form/element2/select.js" />
         <option value="$PROJECT_DIR$/js/load.js" />
         <option value="$PROJECT_DIR$/js/class/form/decorator/element/base-input.js" />
-        <option value="$PROJECT_DIR$/js/class/form/element/radios.js" />
-        <option value="$PROJECT_DIR$/js/class/form/element/multi-value.js" />
-        <option value="$PROJECT_DIR$/js/class/form/element/checked-item.js" />
-        <option value="$PROJECT_DIR$/js/class/form/decorator/element/base-item-listeners.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/class/form/element2/list.js" />
         <option value="$PROJECT_DIR$/js/index.js" />
-        <option value="$PROJECT_DIR$/js/class/form.js" />
-        <option value="$PROJECT_DIR$/js/class/form/decorator/element/base-text-listeners.js" />
-        <option value="$PROJECT_DIR$/js/class/form/some-form.js" />
-        <option value="$PROJECT_DIR$/js/class/form/element/abstract.js" />
+        <option value="$PROJECT_DIR$/js/class/form/decorator/element/select.js" />
+        <option value="$PROJECT_DIR$/js/class/form/element2/abstract.js" />
       </list>
     </option>
   </component>
@@ -318,6 +388,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="element2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="element" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -367,9 +463,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/class/form/element2" />
       <recent name="$PROJECT_DIR$/js/class/form/element" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/class/form/element2/groups" />
       <recent name="$PROJECT_DIR$/js/class/form/decorator/element" />
       <recent name="$PROJECT_DIR$/js/class/form" />
     </key>
@@ -416,7 +514,11 @@
       <created>1368438941147</created>
       <updated>1368438941147</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="remove clear decorators">
+      <created>1368445521948</created>
+      <updated>1368445521949</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -426,7 +528,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972677" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="true" weight="0.17431694" sideWeight="0.9699248" order="0" side_tool="false" content_ui="combo" x="2200" y="114" width="319" height="931" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -484,7 +586,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove var" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove clear decorators" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -502,89 +604,34 @@
     <MESSAGE value="input checkboxes" />
     <MESSAGE value="multi value - values" />
     <MESSAGE value="remove var" />
+    <MESSAGE value="remove clear decorators" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-error-box.js">
+    <entry file="file://$PROJECT_DIR$/js/class/form/some-form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="69" selection-start="407" selection-end="407" vertical-scroll-proportion="0.16648169">
+        <state line="59" column="30" selection-start="1661" selection-end="1661" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/load.js">
+    <entry file="file://$PROJECT_DIR$/js/class/form/element/multi-options.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="64" selection-start="812" selection-end="812" vertical-scroll-proportion="0.38290787">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-input.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="80" selection-start="237" selection-end="237" vertical-scroll-proportion="0.083240844">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/form/element/checked-item.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="537" selection-end="537" vertical-scroll-proportion="0.35072142">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/form/validator/abstract.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="33" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="92" selection-start="1315" selection-end="1315" vertical-scroll-proportion="0.9156493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/form/element/interface.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="33" selection-start="818" selection-end="818" vertical-scroll-proportion="0.29966703">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="41" selection-start="912" selection-end="912" vertical-scroll-proportion="0.6670467">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="456" selection-end="456" vertical-scroll-proportion="0.36625972">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/form/element/radios.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="562" selection-end="562" vertical-scroll-proportion="0.34961155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/form/element/checkboxes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="38" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0">
+        <state line="17" column="52" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/class/form/element/multi-value.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="49" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/class/form/element/single-value.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -593,28 +640,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/class/form/element/text.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="5" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+        <state line="3" column="24" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-text-listeners.js">
+    <entry file="file://$PROJECT_DIR$/js/class/form/element2/text.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="77" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+        <state line="0" column="42" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/form/some-form.js">
+    <entry file="file://$PROJECT_DIR$/js/class/form/element2/single.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="2523" selection-end="2523" vertical-scroll-proportion="0.68368477">
+        <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/form/element/abstract.js">
+    <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-multi-value.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="6" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.61709213">
+        <state line="8" column="44" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-input.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/load.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="39" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="14" selection-start="612" selection-end="614" vertical-scroll-proportion="-16.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="26" selection-start="636" selection-end="636" vertical-scroll-proportion="0.46614873">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/class/form/element2/select.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="54" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/class/form/element2/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="36" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/select.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="71" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/class/form/element2/abstract.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="208" column="19" selection-start="5883" selection-end="5883" vertical-scroll-proportion="0.81687015">
           <folding />
         </state>
       </provider>

@@ -16,16 +16,25 @@ sc('class/form/decorator/element/base-text-listeners');
 sc('class/form/decorator/element/base-item-listeners');
 sc('class/form/decorator/element/base-error-box');
 sc('class/form/decorator/element/base-multi-value');
+sc('class/form/decorator/element/select');
 
-sc('class/form/element/abstract');
-sc('class/form/element/single-value');
-sc('class/form/element/multi-value');
-sc('class/form/element/text');
-sc('class/form/element/checked-item');
-sc('class/form/element/checkboxes');
-sc('class/form/element/radios');
+var ELEMENT_DIR = 'element2';
+sc('class/form/'+ ELEMENT_DIR +'/abstract');
+
+sc('class/form/'+ ELEMENT_DIR +'/single');
+sc('class/form/'+ ELEMENT_DIR +'/text');
+
+sc('class/form/'+ ELEMENT_DIR +'/list');
+sc('class/form/'+ ELEMENT_DIR +'/select');
+
+//
+//sc('class/form/'+ ELEMENT_DIR +'/multi-value');
+//sc('class/form/'+ ELEMENT_DIR +'/text');
+//sc('class/form/'+ ELEMENT_DIR +'/checked-item');
+//sc('class/form/'+ ELEMENT_DIR +'/checkboxes');
+//sc('class/form/'+ ELEMENT_DIR +'/radios');
 
 sc('class/form');
-sc('class/form/some-form');
+//sc('class/form/some-form');
 
 sc('index');
