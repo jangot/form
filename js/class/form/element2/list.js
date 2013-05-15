@@ -5,22 +5,35 @@ Form.Element.Abstract('Form.Element.List', {
 }, {
 
     init : function (name){
-        this._super(name);
+        this._super.apply(this, arguments);
 
         this._params[this.constructor.PARAM_NAME_OPTIONS] = {};
     },
 
-    addOption : function (value, label){
+    addOption : function (value, label, selected){
         if (!label) {
             label = value;
         }
         var options = this.getParam(this.constructor.PARAM_NAME_OPTIONS);
         options[value] = {
             label : label,
-            value : value
+            value : value,
+            selected : Boolean(selected)
         }
-        this.setParam(this.constructor.PARAM_NAME_OPTIONS, options);
-        this._reDraw();
+        this
+            .setParam(this.constructor.PARAM_NAME_OPTIONS, options)
+            ._updateValue()
+        ;
+        return this;
+    },
+
+    removeOption : function (value){
+        var options = this.getParam(this.constructor.PARAM_NAME_OPTIONS);
+        delete options[value];
+        this
+            .setParam(this.constructor.PARAM_NAME_OPTIONS, options)
+            ._updateValue()
+        ;
         return this;
     },
 
@@ -31,10 +44,47 @@ Form.Element.Abstract('Form.Element.List', {
             result.push({
                 value : value,
                 label : options[value].label,
-                selected : false
+                selected : options[value].selected
             })
         }
         return result;
+    },
+
+    select : function (value){
+        var options = this.getParam(this.constructor.PARAM_NAME_OPTIONS);
+        if (!options[value]) {
+            return this;
+        }
+        options[value].selected = true;
+        this
+            ._updateValue()
+        ;
+
+        return this;
+    },
+
+    deselect : function (value){
+        var options = this.getParam(this.constructor.PARAM_NAME_OPTIONS);
+        if (!options[value]) {
+            return this;
+        }
+        options[value].selected = false;
+        this
+            ._updateValue()
+        ;
+        return this;
+    },
+
+    _updateValue : function (){
+        var result = [];
+        var options = this.getParam(this.constructor.PARAM_NAME_OPTIONS);
+        for (var value in options) {
+            if (options[value].selected) {
+                result.push(value);
+            }
+        }
+        this.setParam(this.constructor.PARAM_NAME_VALUE, result);
+        return this;
     }
 
 });

@@ -17,15 +17,20 @@ sc('class/form/decorator/element/base-item-listeners');
 sc('class/form/decorator/element/base-error-box');
 sc('class/form/decorator/element/base-multi-value');
 sc('class/form/decorator/element/select');
+sc('class/form/decorator/element/base-checkbox');
+sc('class/form/decorator/element/base-checkboxes');
 
 var ELEMENT_DIR = 'element2';
 sc('class/form/'+ ELEMENT_DIR +'/abstract');
 
 sc('class/form/'+ ELEMENT_DIR +'/single');
 sc('class/form/'+ ELEMENT_DIR +'/text');
+sc('class/form/'+ ELEMENT_DIR +'/checked');
 
 sc('class/form/'+ ELEMENT_DIR +'/list');
 sc('class/form/'+ ELEMENT_DIR +'/select');
+sc('class/form/'+ ELEMENT_DIR +'/checkboxes');
+sc('class/form/'+ ELEMENT_DIR +'/radios');
 
 //
 //sc('class/form/'+ ELEMENT_DIR +'/multi-value');

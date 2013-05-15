@@ -37,7 +37,8 @@ $.Class('Form.Element.Abstract', {
 
     getHtml : function (){
         if (!this._html) {
-            this._html = $('<div class="form-element"></div>');
+            var type = this.getParam(this.constructor.PARAM_NAME_TYPE);
+            this._html = $('<div class="form-element form-element-'+ type +'"></div>');
             this._html.html(this._draw());
         }
         return this._html;
@@ -135,7 +136,10 @@ $.Class('Form.Element.Abstract', {
         if ($.type(this._params[name]) !== 'undefined') {
             this._params[name] = value;
         }
-        this._callEvent(name);
+        this
+            ._callEvent(name)
+            ._updateDecorators(name)
+        ;
         return this;
     },
 
@@ -196,17 +200,22 @@ $.Class('Form.Element.Abstract', {
 
     _callEvent : function (paramName){
         var eventsList = this._events[paramName];
-        if ($.type(eventsList) === 'array') {
-            for (var i = 0; i < eventsList.length; i++) {
-                try {
-                    eventsList[i](this.getParam(paramName), this);
-                } catch (e) {
-                    console.error('Error in callback', eventsList[i]);
-                }
+        if ($.type(eventsList) !== 'array') {
+            return this;
+        }
+        for (var i = 0; i < eventsList.length; i++) {
+            try {
+                eventsList[i](this.getParam(paramName), this);
+            } catch (e) {
+                console.error('Error in callback', eventsList[i]);
             }
         }
+        return this;
+    },
+
+    _updateDecorators : function (paramName){
         if (!this._html) {
-            return;
+            return this;
         }
         for (var j = 0; j < this._decorators.length; j++) {
             if ($.type(this._decorators[j].update) !== 'function') {

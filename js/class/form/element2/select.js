@@ -1,3 +1,1 @@
-Form.Element.List('Form.Element.Select', {
-
-});
+Form.Element.List('Form.Element.Select', {});

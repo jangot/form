@@ -7,7 +7,7 @@ Form.Decorator.Element.Abstract('Form.Decorator.Element.Select', {
 
         result.change(function (){
             var val = $(this).val();
-            element.setValue(val)
+            element.setParam('value', val)
         });
 
         this._setOptionsToSelect(element.getOptions(), result);
@@ -18,7 +18,7 @@ Form.Decorator.Element.Abstract('Form.Decorator.Element.Select', {
 
     update : function (attrName, element){
         if (attrName == 'value') {
-            var value = element.getValue();
+            var value = element.getParam('value');
             this._select.find('[value="' + value + '"]').attr('selected', true);
         }
         if (attrName == 'options') {

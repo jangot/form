@@ -1,10 +1,21 @@
 Form.Decorator.Element.Abstract('Form.Decorator.Element.BaseLabel', {
 
-    decorate : function (result, element){
-        var label = $('<label>' + element.getLabel() + '</label>');
+    _after : null,
 
-        result.find('input').wrap(label);
-        return result;
+    init : function (before){
+        this._after = Boolean(before);
+    },
+
+    decorate : function (result, element){
+        var label = $('<div> ' + element.getLabel() + '</div>');
+
+        if (this._after) {
+            label.append(result);
+        } else {
+            label.prepend(result);
+        }
+
+        return label;
     }
 
 });
