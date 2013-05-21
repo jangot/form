@@ -10,6 +10,21 @@ Form.Element.Abstract('Form.Element.List', {
         this._params[this.constructor.PARAM_NAME_OPTIONS] = {};
     },
 
+    setValue : function (values){
+        var options = this.getParam(this.constructor.PARAM_NAME_OPTIONS);
+        for (var value in options) {
+            options[value].selected = false;
+        }
+        for (var i in values) {
+            if (options[values[i]]) {
+                options[values[i]].selected = true;
+            }
+        }
+
+        this.setParam(this.constructor.PARAM_NAME_VALUE, this._getCustomValue());
+        return this;
+    },
+
     addOption : function (value, label, selected){
         if (!label) {
             label = value;
@@ -22,7 +37,7 @@ Form.Element.Abstract('Form.Element.List', {
         }
         this
             .setParam(this.constructor.PARAM_NAME_OPTIONS, options)
-            ._updateValue()
+            .setParam(this.constructor.PARAM_NAME_VALUE, this._getCustomValue())
         ;
         return this;
     },
@@ -32,7 +47,7 @@ Form.Element.Abstract('Form.Element.List', {
         delete options[value];
         this
             .setParam(this.constructor.PARAM_NAME_OPTIONS, options)
-            ._updateValue()
+            .setParam(this.constructor.PARAM_NAME_VALUE, this._getCustomValue())
         ;
         return this;
     },
@@ -57,7 +72,7 @@ Form.Element.Abstract('Form.Element.List', {
         }
         options[value].selected = true;
         this
-            ._updateValue()
+            .setParam(this.constructor.PARAM_NAME_VALUE, this._getCustomValue())
         ;
 
         return this;
@@ -70,21 +85,21 @@ Form.Element.Abstract('Form.Element.List', {
         }
         options[value].selected = false;
         this
-            ._updateValue()
+            .setParam(this.constructor.PARAM_NAME_VALUE, this._getCustomValue())
         ;
         return this;
     },
 
-    _updateValue : function (){
+    _getCustomValue : function (){
         var result = [];
         var options = this.getParam(this.constructor.PARAM_NAME_OPTIONS);
         for (var value in options) {
             if (options[value].selected) {
                 result.push(value);
             }
+
         }
-        this.setParam(this.constructor.PARAM_NAME_VALUE, result);
-        return this;
+        return result;
     }
 
 });

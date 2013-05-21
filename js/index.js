@@ -23,36 +23,36 @@ $(function (){
     $('#form').append(sel.getHtml());
 
 
-    var ch = new Form.Element.Checked('ch1');
+    var ch = new Form.Element.Checkbox('check1');
     ch
+        .setLabel('CheckboxTrue')
         .addDecorator(new Form.Decorator.Element.Checkbox())
-        .addDecorator(new Form.Decorator.Element.BaseLabel())
-        .setLabel('Yes?')
-        .setValue('yes')
+        .addDecorator(new Form.Decorator.Element.BaseLabel(true))
+        .addOption('Start')
+        .addOption('Finish')
+        .addOption('End')
     ;
-
     $('#form').append(ch.getHtml());
 
-    var chs = new Form.Element.Radios('chs1');
-    chs
-        .setLabel('Checkboxes list')
-        .addDecorator(new Form.Decorator.Element.CheckboxesRadios())
+    var rd = new Form.Element.Radio('Rad1');
+    rd
+        .setLabel('RadioTrue')
+        .addDecorator(new Form.Decorator.Element.Checkbox())
         .addDecorator(new Form.Decorator.Element.BaseLabel(true))
-        .addOption('first')
-        .addOption('second', 'second', true)
-        .addOption('new bern')
-        .addOption('foo')
+        .addOption('Start')
+        .addOption('Finish')
+        .addOption('End')
     ;
+    $('#form').append(rd.getHtml());
 
-    $('#form').append(chs.getHtml());
 
     //=============================
     $('#br').click(function (){
-        console.log(chs.getValue());
+        console.log(rd.getValue());
     });
 
     $('#bv').click(function (){
-        test.disable();
+        rd.setValue('Finish');
     })
 
 });

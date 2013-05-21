@@ -5,26 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00ec7d41-3be9-4e21-aa7f-0470379a82ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/class/form/decorator/element/base-checkbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/class/form/decorator/element/base-checkboxes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/class/form/element2/checkboxes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/class/form/element2/checked.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/class/form/element2/radios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/class/form/element2/abstract.js" afterPath="$PROJECT_DIR$/js/class/form/element2/abstract.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/class/form/decorator/element/base-input.js" afterPath="$PROJECT_DIR$/js/class/form/decorator/element/base-input.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/class/form/decorator/element/base-label.js" afterPath="$PROJECT_DIR$/js/class/form/decorator/element/base-label.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/class/form/element2/checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/class/form/element2/radio.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/class/form/element2/checkboxes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/class/form/element2/checked.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/class/form/element2/radios.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/class/form/decorator/element/base-checkbox.js" afterPath="$PROJECT_DIR$/js/class/form/decorator/element/base-checkbox.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/class/form/decorator/element/base-checkboxes.js" afterPath="$PROJECT_DIR$/js/class/form/decorator/element/base-checkboxes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/class/form/element2/list.js" afterPath="$PROJECT_DIR$/js/class/form/element2/list.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/load.js" afterPath="$PROJECT_DIR$/js/load.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/class/form/decorator/element/select.js" afterPath="$PROJECT_DIR$/js/class/form/decorator/element/select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/class/form/element2/select.js" afterPath="$PROJECT_DIR$/js/class/form/element2/select.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="form.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368612965566" ignored="false" />
-    <file path="/index.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368623089064" ignored="false" />
+    <file path="/Dummy.txt" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369129518568" ignored="false" />
+    <file path="/index.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369059989781" ignored="false" />
     <file path="/abstract.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368611830075" ignored="false" />
     <file path="/base-input.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368546373482" ignored="false" />
     <file path="/single-value.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1366974160670" ignored="false" />
@@ -42,23 +38,23 @@
     <file path="/base-text-listeners.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368445004252" ignored="false" />
     <file path="/checked-item.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367314752999" ignored="false" />
     <file path="/base-item-listeners.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367314824711" ignored="false" />
-    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/applications/cases/edit.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368545556511" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/applications/cases/edit.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369059336883" ignored="false" />
     <file path="/edit.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1366987178438" ignored="false" />
     <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/applications/cases/creation.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1366987255067" ignored="false" />
-    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/applications/cases.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368612984827" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/applications/cases.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369129502919" ignored="false" />
     <file path="/cases.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368612956039" ignored="false" />
     <file path="$PROJECT_DIR$/../Simplate_BO_UI/.idea/workspace.xml" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367320422665" ignored="false" />
-    <file path="/a.dummy" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368543809561" ignored="false" />
+    <file path="/a.dummy" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368713708617" ignored="false" />
     <file path="/form.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367258498019" ignored="false" />
     <file path="/interface.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367256997482" ignored="false" />
     <file path="/someForm.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367257901782" ignored="false" />
     <file path="/some-form.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368445380477" ignored="false" />
-    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/models/business.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368545552010" ignored="false" />
-    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/mainWindow.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368456275792" ignored="false" />
-    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/applications/simplates.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368547138662" ignored="false" />
-    <file path="/radios.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368625766680" ignored="false" />
-    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/common/controls/iconButton.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367320160588" ignored="false" />
-    <file path="/iconButton.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367320155870" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/models/business.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369038083240" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/mainWindow.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369037413716" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/applications/simplates.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369129534905" ignored="false" />
+    <file path="/radios.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369050143982" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/common/controls/iconButton.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369037483181" ignored="false" />
+    <file path="/iconButton.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369037480632" ignored="false" />
     <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/common/groupManagement.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367318984585" ignored="false" />
     <file path="/groupManagement.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367319017087" ignored="false" />
     <file path="$PROJECT_DIR$/../Simplate_BO_UI/scss/widgets/buttons.scss" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367320361032" ignored="false" />
@@ -66,11 +62,11 @@
     <file path="$PROJECT_DIR$/../Simplate_BO_UI/scss/index.css" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367320401617" ignored="false" />
     <file path="$PROJECT_DIR$/../Simplate_BO_UI/scss/buttons.css" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367320401617" ignored="false" />
     <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/applications/cases/groupManagement.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1367319072797" ignored="false" />
-    <file path="$PROJECT_DIR$/../Simplate_BO_UI/locale/locales.csv" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368612687975" ignored="false" />
-    <file path="/locales.csv" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368612532832" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/locale/locales.csv" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369129534905" ignored="false" />
+    <file path="/locales.csv" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369060421285" ignored="false" />
     <file path="/multi-options.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368454187612" ignored="false" />
-    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/configs/main.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368449810456" ignored="false" />
-    <file path="/business.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368448724923" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/configs/main.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369062086215" ignored="false" />
+    <file path="/business.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369037864546" ignored="false" />
     <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/models/business/simples/service.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368449757286" ignored="false" />
     <file path="/service.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368449733657" ignored="false" />
     <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/models/business/cases/service.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368456093613" ignored="false" />
@@ -78,14 +74,82 @@
     <file path="/mainWindow.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368456190112" ignored="false" />
     <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/models/business/cases/dataKeeper.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368525340422" ignored="false" />
     <file path="/dataKeeper.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368525183004" ignored="false" />
-    <file path="/list.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368610656057" ignored="false" />
+    <file path="/list.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369054406680" ignored="false" />
     <file path="/select.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368533656452" ignored="false" />
-    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/formGenerator/formGenerator.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368544687389" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/formGenerator/formGenerator.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369129534905" ignored="false" />
     <file path="/formGenerator.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368544624343" ignored="false" />
-    <file path="/base-checkbox.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368625372724" ignored="false" />
-    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/locale/locale.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368547138662" ignored="false" />
-    <file path="/base-checkboxes.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368625732809" ignored="false" />
-    <file path="/checked.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368625403886" ignored="false" />
+    <file path="/base-checkbox.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369055886893" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/locale/locale.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369129534905" ignored="false" />
+    <file path="/base-checkboxes.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369049471738" ignored="false" />
+    <file path="/checked.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369049392366" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/routes/index.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368784017666" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/app.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368779717667" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/bootstrap.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368779507470" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/constants/global.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368785015303" ignored="false" />
+    <file path="/global.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368785015303" ignored="false" />
+    <file path="/bootstrap.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368779404346" ignored="false" />
+    <file path="/app.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368779687605" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/lib/register.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368779498382" ignored="false" />
+    <file path="/register.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368635710974" ignored="false" />
+    <file path="/index.jade" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368697942902" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/views/index/index.jade" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368697943572" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/views/index/_layout.jade" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368636740371" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/views/index/layout.jade" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368700979834" ignored="false" />
+    <file path="/layout.jade" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368636767937" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/model/collection.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368637110368" ignored="false" />
+    <file path="/collection.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368637100688" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/model/guitar/object.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368784283359" ignored="false" />
+    <file path="/object.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368784195079" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/model/guitar/data.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368696938599" ignored="false" />
+    <file path="/data.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368784879511" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/model/abstract/data.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368697816837" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/views/index/auth.jade" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368698280375" ignored="false" />
+    <file path="/auth.jade" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368698280375" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/lib/loadUser.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368791799859" ignored="false" />
+    <file path="/loadUser.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368791566816" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/lib/routesLoader.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368701818016" ignored="false" />
+    <file path="/routesLoader.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368701482024" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/routes/auth.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368704580993" ignored="false" />
+    <file path="/auth.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368704557490" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/views/auth/form.jade" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368701701781" ignored="false" />
+    <file path="/form.jade" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368701701781" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/views/simplLayout.jade" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368701108747" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/public/stylesheets/index.css" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368700565209" ignored="false" />
+    <file path="/index.css" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368700565209" ignored="false" />
+    <file path="/simplLayout.jade" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368701055292" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/public/stylesheets/style.css" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368701143834" ignored="false" />
+    <file path="/style.css" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368701141755" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/scss/application.scss" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368707999614" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/applications/cases/casesList.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368713790368" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/model/abstract/object.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368784281592" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/model/guitar/selectBuilder.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368780423403" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/model/abstract/selectBuilder.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368780530268" ignored="false" />
+    <file path="/selectBuilder.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368785127608" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/model/guitar/index.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368784646633" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/model/abstract/index.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368783666387" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/model/user_/index.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368784724695" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/model/user_/object.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368784769175" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/model/user_/data.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368784880198" ignored="false" />
+    <file path="$USER_HOME$/WebstormProjects/temp/model/user_/selectBuilder.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1368791214001" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/applications/statistic/lists.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369037413716" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/applications/abstract.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369037413716" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/bootstrap.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369037413716" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/abstract.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369037413716" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/applications/roles.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369037413716" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/templates/all.html" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369129534905" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/applications/cases/case.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369039902532" ignored="false" />
+    <file path="/case.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369039902225" ignored="false" />
+    <file path="/all.html" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369040127018" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/scss/widgets/cases/list.scss" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369129534905" ignored="false" />
+    <file path="/list.scss" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369040023589" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/scss/list.css" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369040047193" ignored="false" />
+    <file path="/radio.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369056164899" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/scss/ui-elements/application/cases/edit.scss" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369059442674" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/common/popup/alert.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369129534905" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/common/popup/confirm.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369129534905" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/common/popup/prompt.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369129534905" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/index.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369060001577" ignored="false" />
+    <file path="$PROJECT_DIR$/../Simplate_BO_UI/js/classes/uielements/applications/simplates/treeSelect.js" changelist="00ec7d41-3be9-4e21-aa7f-0470379a82ae" time="1369129534905" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,169 +168,89 @@
     <favorites_list name="form" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="load.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/load.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="32" column="39" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="base-input.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-input.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="abstract.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/class/form/element2/abstract.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="73" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="single.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/class/form/element2/single.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="abstract.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/class/form/element/abstract.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="181" column="6" selection-start="4998" selection-end="4998" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="checkboxes.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/class/form/element2/checkboxes.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="28" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="radios.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/class/form/element2/radios.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="8" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="select.js" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/class/form/element2/select.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="checked.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/class/form/element2/checked.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="33" column="0" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="text.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/class/form/element2/text.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="35" column="37" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="list.js" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/class/form/element2/list.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="67" column="35" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.50342464">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="base-label.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-label.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="60" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="9" selection-start="345" selection-end="345" vertical-scroll-proportion="-8.75">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="base-multi-value.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-multi-value.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="31" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="base-checkboxes.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-checkboxes.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="51" column="0" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="base-checkbox.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-checkbox.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="load.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/load.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="38" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base-input.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-input.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="69" selection-start="626" selection-end="626" vertical-scroll-proportion="0.38290787">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="abstract.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/class/form/element2/abstract.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="73" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/class/form/element2/single.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="abstract.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/class/form/element/abstract.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="181" column="6" selection-start="4998" selection-end="4998" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkbox.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/class/form/element2/checkbox.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="radio.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/class/form/element2/radio.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="select.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/class/form/element2/select.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/class/form/element2/text.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -581,13 +565,18 @@
       <created>1368533531123</created>
       <updated>1368533531123</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="checked elements">
+      <created>1368626185756</created>
+      <updated>1368626185756</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1431" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972677" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -601,7 +590,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -649,7 +637,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="models" />
+    <option name="LAST_COMMIT_MESSAGE" value="checked elements" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -669,6 +657,7 @@
     <MESSAGE value="remove var" />
     <MESSAGE value="remove clear decorators" />
     <MESSAGE value="models" />
+    <MESSAGE value="checked elements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -681,13 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/form/element/abstract.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="6" selection-start="4998" selection-end="4998" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="9" selection-start="345" selection-end="345" vertical-scroll-proportion="-8.75">
@@ -695,9 +677,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-input.js">
+    <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-label.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
+        <state line="9" column="60" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-checkbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="8" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-checkboxes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1580" selection-end="1580" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/class/form/element2/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="44" selection-start="690" selection-end="690" vertical-scroll-proportion="0.18312986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.38290787">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/load.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="38" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -716,72 +733,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/load.js">
+    <entry file="file://$PROJECT_DIR$/js/class/form/element/abstract.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="39" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.0">
+        <state line="181" column="6" selection-start="4998" selection-end="4998" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/form/element2/checkboxes.js">
+    <entry file="file://$PROJECT_DIR$/js/class/form/element2/checkbox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-label.js">
+    <entry file="file://$PROJECT_DIR$/js/class/form/element2/radio.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="60" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/form/element2/checked.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-checkbox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-checkboxes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/form/element2/radios.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+        <state line="8" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/class/form/element2/select.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
+    <entry file="file://$PROJECT_DIR$/js/class/form/element2/text.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="37" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/class/form/element2/list.js">
+    <entry file="file://$PROJECT_DIR$/js/class/form/decorator/element/base-input.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="35" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.50342464">
+        <state line="23" column="69" selection-start="626" selection-end="626" vertical-scroll-proportion="0.38290787">
           <folding />
         </state>
       </provider>

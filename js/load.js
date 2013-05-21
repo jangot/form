@@ -25,12 +25,11 @@ sc('class/form/'+ ELEMENT_DIR +'/abstract');
 
 sc('class/form/'+ ELEMENT_DIR +'/single');
 sc('class/form/'+ ELEMENT_DIR +'/text');
-sc('class/form/'+ ELEMENT_DIR +'/checked');
 
 sc('class/form/'+ ELEMENT_DIR +'/list');
 sc('class/form/'+ ELEMENT_DIR +'/select');
-sc('class/form/'+ ELEMENT_DIR +'/checkboxes');
-sc('class/form/'+ ELEMENT_DIR +'/radios');
+sc('class/form/'+ ELEMENT_DIR +'/checkbox');
+sc('class/form/'+ ELEMENT_DIR +'/radio');
 
 //
 //sc('class/form/'+ ELEMENT_DIR +'/multi-value');

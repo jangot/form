@@ -1,4 +1,4 @@
-Form.Decorator.Element.Abstract('Form.Decorator.Element.CheckboxesRadios', {
+Form.Decorator.Element.Abstract('Form.Decorator.Element.Checkbox_', {
 
     _html : null,
     _element : null,
@@ -30,7 +30,7 @@ Form.Decorator.Element.Abstract('Form.Decorator.Element.CheckboxesRadios', {
     },
 
     _getCheckbox : function (position, option){
-        var checkbox = new Form.Element.Checked(option.value);
+        var checkbox = new Form.Element.Checked(option.value, option.value);
 
         if (this._type == 'radios') {
             checkbox.setType('radio');
@@ -40,8 +40,9 @@ Form.Decorator.Element.Abstract('Form.Decorator.Element.CheckboxesRadios', {
             .addDecorator(new Form.Decorator.Element.Checkbox())
             .addDecorator(new Form.Decorator.Element.BaseLabel())
             .setLabel(option.label)
-            .setValue(option.value)
-            .setChecked(option.selected)
+            .setValue(
+                option.selected ? option.value : false
+            )
         ;
         checkbox.onChange('checked', function (options, element){
             var value = element.getValue();
